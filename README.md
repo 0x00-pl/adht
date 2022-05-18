@@ -1,22 +1,18 @@
 # ADHT
 
-
-
-##### What is ADHT?
-
 Advanced Distributed Hash Table  implementation on Python.
 
 
 
-## Quick start
-
-install Python3
-
-install PIP
-
-
+## Install
+### debian/ubuntu
 
 ```
+apt install python3 python3-pip
 pip3 install -r requirements.txt
+```
+
+## Test
+```
 python -m pytest
 ```
